@@ -1,0 +1,211 @@
+Removed Pin From Net: NetName=VDD Pin=flat1-1
+Removed Pin From Net: NetName=VDD Pin=flat1-3
+Removed Pin From Net: NetName=VDD Pin=flat1-5
+Removed Pin From Net: NetName=VDD Pin=flat1-7
+Removed Pin From Net: NetName=VDD Pin=flat1-9
+Removed Pin From Net: NetName=VDD Pin=flat1-11
+Removed Pin From Net: NetName=VDD Pin=flat1-13
+Removed Pin From Net: NetName=VDD Pin=flat1-15
+Removed Pin From Net: NetName=Netconnector1_1 Pin=flat1-Din1
+Removed Pin From Net: NetName=GND Pin=flat1-GND1
+Removed Pin From Net: NetName=GND Pin=flat1-GND2
+Removed Pin From Net: NetName=GND Pin=flat1-GND3
+Removed Pin From Net: NetName=GND Pin=flat1-GND4
+Removed Pin From Net: NetName=GND Pin=flat1-GND5
+Removed Pin From Net: NetName=GND Pin=flat1-GND6
+Removed Pin From Net: NetName=GND Pin=flat1-GND7
+Removed Pin From Net: NetName=GND Pin=flat1-GND8
+Removed Pin From Net: NetName=VDD Pin=flat2-1
+Removed Pin From Net: NetName=VDD Pin=flat2-3
+Removed Pin From Net: NetName=VDD Pin=flat2-5
+Removed Pin From Net: NetName=VDD Pin=flat2-7
+Removed Pin From Net: NetName=VDD Pin=flat2-9
+Removed Pin From Net: NetName=VDD Pin=flat2-11
+Removed Pin From Net: NetName=VDD Pin=flat2-13
+Removed Pin From Net: NetName=VDD Pin=flat2-15
+Removed Pin From Net: NetName=GND Pin=flat2-GND1
+Removed Pin From Net: NetName=GND Pin=flat2-GND2
+Removed Pin From Net: NetName=GND Pin=flat2-GND3
+Removed Pin From Net: NetName=GND Pin=flat2-GND4
+Removed Pin From Net: NetName=GND Pin=flat2-GND5
+Removed Pin From Net: NetName=GND Pin=flat2-GND6
+Removed Pin From Net: NetName=GND Pin=flat2-GND7
+Removed Pin From Net: NetName=GND Pin=flat2-GND8
+Removed Pin From Net: NetName=VDD Pin=flat3-1
+Removed Pin From Net: NetName=VDD Pin=flat3-3
+Removed Pin From Net: NetName=VDD Pin=flat3-5
+Removed Pin From Net: NetName=VDD Pin=flat3-7
+Removed Pin From Net: NetName=VDD Pin=flat3-9
+Removed Pin From Net: NetName=VDD Pin=flat3-11
+Removed Pin From Net: NetName=VDD Pin=flat3-13
+Removed Pin From Net: NetName=VDD Pin=flat3-15
+Removed Pin From Net: NetName=GND Pin=flat3-GND1
+Removed Pin From Net: NetName=GND Pin=flat3-GND2
+Removed Pin From Net: NetName=GND Pin=flat3-GND3
+Removed Pin From Net: NetName=GND Pin=flat3-GND4
+Removed Pin From Net: NetName=GND Pin=flat3-GND5
+Removed Pin From Net: NetName=GND Pin=flat3-GND6
+Removed Pin From Net: NetName=GND Pin=flat3-GND7
+Removed Pin From Net: NetName=GND Pin=flat3-GND8
+Removed Pin From Net: NetName=VDD Pin=flat4-1
+Removed Pin From Net: NetName=VDD Pin=flat4-3
+Removed Pin From Net: NetName=VDD Pin=flat4-5
+Removed Pin From Net: NetName=VDD Pin=flat4-7
+Removed Pin From Net: NetName=VDD Pin=flat4-9
+Removed Pin From Net: NetName=VDD Pin=flat4-11
+Removed Pin From Net: NetName=VDD Pin=flat4-13
+Removed Pin From Net: NetName=VDD Pin=flat4-15
+Removed Pin From Net: NetName=GND Pin=flat4-GND1
+Removed Pin From Net: NetName=GND Pin=flat4-GND2
+Removed Pin From Net: NetName=GND Pin=flat4-GND3
+Removed Pin From Net: NetName=GND Pin=flat4-GND4
+Removed Pin From Net: NetName=GND Pin=flat4-GND5
+Removed Pin From Net: NetName=GND Pin=flat4-GND6
+Removed Pin From Net: NetName=GND Pin=flat4-GND7
+Removed Pin From Net: NetName=GND Pin=flat4-GND8
+Removed Pin From Net: NetName=VDD Pin=flat5-1
+Removed Pin From Net: NetName=VDD Pin=flat5-3
+Removed Pin From Net: NetName=VDD Pin=flat5-5
+Removed Pin From Net: NetName=VDD Pin=flat5-7
+Removed Pin From Net: NetName=VDD Pin=flat5-9
+Removed Pin From Net: NetName=VDD Pin=flat5-11
+Removed Pin From Net: NetName=VDD Pin=flat5-13
+Removed Pin From Net: NetName=VDD Pin=flat5-15
+Removed Pin From Net: NetName=GND Pin=flat5-GND1
+Removed Pin From Net: NetName=GND Pin=flat5-GND2
+Removed Pin From Net: NetName=GND Pin=flat5-GND3
+Removed Pin From Net: NetName=GND Pin=flat5-GND4
+Removed Pin From Net: NetName=GND Pin=flat5-GND5
+Removed Pin From Net: NetName=GND Pin=flat5-GND6
+Removed Pin From Net: NetName=GND Pin=flat5-GND7
+Removed Pin From Net: NetName=GND Pin=flat5-GND8
+Removed Pin From Net: NetName=VDD Pin=flat6-1
+Removed Pin From Net: NetName=VDD Pin=flat6-3
+Removed Pin From Net: NetName=VDD Pin=flat6-5
+Removed Pin From Net: NetName=VDD Pin=flat6-7
+Removed Pin From Net: NetName=VDD Pin=flat6-9
+Removed Pin From Net: NetName=VDD Pin=flat6-11
+Removed Pin From Net: NetName=VDD Pin=flat6-13
+Removed Pin From Net: NetName=VDD Pin=flat6-15
+Removed Pin From Net: NetName=GND Pin=flat6-GND1
+Removed Pin From Net: NetName=GND Pin=flat6-GND2
+Removed Pin From Net: NetName=GND Pin=flat6-GND3
+Removed Pin From Net: NetName=GND Pin=flat6-GND4
+Removed Pin From Net: NetName=GND Pin=flat6-GND5
+Removed Pin From Net: NetName=GND Pin=flat6-GND6
+Removed Pin From Net: NetName=GND Pin=flat6-GND7
+Removed Pin From Net: NetName=GND Pin=flat6-GND8
+Removed Pin From Net: NetName=VDD Pin=flat7-1
+Removed Pin From Net: NetName=VDD Pin=flat7-3
+Removed Pin From Net: NetName=VDD Pin=flat7-5
+Removed Pin From Net: NetName=VDD Pin=flat7-7
+Removed Pin From Net: NetName=VDD Pin=flat7-9
+Removed Pin From Net: NetName=VDD Pin=flat7-11
+Removed Pin From Net: NetName=VDD Pin=flat7-13
+Removed Pin From Net: NetName=VDD Pin=flat7-15
+Removed Pin From Net: NetName=GND Pin=flat7-GND1
+Removed Pin From Net: NetName=GND Pin=flat7-GND2
+Removed Pin From Net: NetName=GND Pin=flat7-GND3
+Removed Pin From Net: NetName=GND Pin=flat7-GND4
+Removed Pin From Net: NetName=GND Pin=flat7-GND5
+Removed Pin From Net: NetName=GND Pin=flat7-GND6
+Removed Pin From Net: NetName=GND Pin=flat7-GND7
+Removed Pin From Net: NetName=GND Pin=flat7-GND8
+Removed Pin From Net: NetName=VDD Pin=flat8-1
+Removed Pin From Net: NetName=VDD Pin=flat8-3
+Removed Pin From Net: NetName=VDD Pin=flat8-5
+Removed Pin From Net: NetName=VDD Pin=flat8-7
+Removed Pin From Net: NetName=VDD Pin=flat8-9
+Removed Pin From Net: NetName=VDD Pin=flat8-11
+Removed Pin From Net: NetName=VDD Pin=flat8-13
+Removed Pin From Net: NetName=VDD Pin=flat8-15
+Removed Pin From Net: NetName=GND Pin=flat8-GND1
+Removed Pin From Net: NetName=GND Pin=flat8-GND2
+Removed Pin From Net: NetName=GND Pin=flat8-GND3
+Removed Pin From Net: NetName=GND Pin=flat8-GND4
+Removed Pin From Net: NetName=GND Pin=flat8-GND5
+Removed Pin From Net: NetName=GND Pin=flat8-GND6
+Removed Pin From Net: NetName=GND Pin=flat8-GND7
+Removed Pin From Net: NetName=GND Pin=flat8-GND8
+Added Component: Designator=LED_LED1(LED)
+Added Component: Designator=LED_LED2(LED)
+Added Component: Designator=LED_LED3(LED)
+Added Component: Designator=LED_LED4(LED)
+Added Component: Designator=LED_LED5(LED)
+Added Component: Designator=LED_LED6(LED)
+Added Component: Designator=LED_LED7(LED)
+Added Component: Designator=LED_LED8(LED)
+Added Component: Designator=R1_LED1(Resistor)
+Added Component: Designator=R1_LED2(Resistor)
+Added Component: Designator=R1_LED3(Resistor)
+Added Component: Designator=R1_LED4(Resistor)
+Added Component: Designator=R1_LED5(Resistor)
+Added Component: Designator=R1_LED6(Resistor)
+Added Component: Designator=R1_LED7(Resistor)
+Added Component: Designator=R1_LED8(Resistor)
+Added Pin To Net: NetName=Netconnector1_1 Pin=LED_LED1-Din
+Added Pin To Net: NetName=GND Pin=LED_LED1-GND
+Added Pin To Net: NetName=Netconnector1_1 Pin=LED_LED2-Din
+Added Pin To Net: NetName=GND Pin=LED_LED2-GND
+Added Pin To Net: NetName=Netconnector1_1 Pin=LED_LED3-Din
+Added Pin To Net: NetName=GND Pin=LED_LED3-GND
+Added Pin To Net: NetName=Netconnector1_1 Pin=LED_LED4-Din
+Added Pin To Net: NetName=GND Pin=LED_LED4-GND
+Added Pin To Net: NetName=Netconnector1_1 Pin=LED_LED5-Din
+Added Pin To Net: NetName=GND Pin=LED_LED5-GND
+Added Pin To Net: NetName=Netconnector1_1 Pin=LED_LED6-Din
+Added Pin To Net: NetName=GND Pin=LED_LED6-GND
+Added Pin To Net: NetName=Netconnector1_1 Pin=LED_LED7-Din
+Added Pin To Net: NetName=GND Pin=LED_LED7-GND
+Added Pin To Net: NetName=Netconnector1_1 Pin=LED_LED8-Din
+Added Pin To Net: NetName=GND Pin=LED_LED8-GND
+Added Pin To Net: NetName=VDD Pin=R1_LED1-2
+Added Pin To Net: NetName=VDD Pin=R1_LED2-2
+Added Pin To Net: NetName=VDD Pin=R1_LED3-2
+Added Pin To Net: NetName=VDD Pin=R1_LED4-2
+Added Pin To Net: NetName=VDD Pin=R1_LED5-2
+Added Pin To Net: NetName=VDD Pin=R1_LED6-2
+Added Pin To Net: NetName=VDD Pin=R1_LED7-2
+Added Pin To Net: NetName=VDD Pin=R1_LED8-2
+Added Pin To Net: NetName=NetLED_LED1_Dout Pin=LED_LED1-Dout
+Added Pin To Net: NetName=NetLED_LED1_Dout Pin=LED_LED2-Dout
+Added Pin To Net: NetName=NetLED_LED1_Dout Pin=LED_LED3-Dout
+Added Pin To Net: NetName=NetLED_LED1_Dout Pin=LED_LED4-Dout
+Added Pin To Net: NetName=NetLED_LED1_Dout Pin=LED_LED5-Dout
+Added Pin To Net: NetName=NetLED_LED1_Dout Pin=LED_LED6-Dout
+Added Pin To Net: NetName=NetLED_LED1_Dout Pin=LED_LED7-Dout
+Added Pin To Net: NetName=NetLED_LED1_Dout Pin=LED_LED8-Dout
+Added Net: Name=NetLED_LED1_Dout
+Added Pin To Net: NetName=NetLED_LED1_VDD Pin=LED_LED1-VDD
+Added Pin To Net: NetName=NetLED_LED1_VDD Pin=R1_LED1-1
+Added Net: Name=NetLED_LED1_VDD
+Added Pin To Net: NetName=NetLED_LED2_VDD Pin=LED_LED2-VDD
+Added Pin To Net: NetName=NetLED_LED2_VDD Pin=R1_LED2-1
+Added Net: Name=NetLED_LED2_VDD
+Added Pin To Net: NetName=NetLED_LED3_VDD Pin=LED_LED3-VDD
+Added Pin To Net: NetName=NetLED_LED3_VDD Pin=R1_LED3-1
+Added Net: Name=NetLED_LED3_VDD
+Added Pin To Net: NetName=NetLED_LED4_VDD Pin=LED_LED4-VDD
+Added Pin To Net: NetName=NetLED_LED4_VDD Pin=R1_LED4-1
+Added Net: Name=NetLED_LED4_VDD
+Added Pin To Net: NetName=NetLED_LED5_VDD Pin=LED_LED5-VDD
+Added Pin To Net: NetName=NetLED_LED5_VDD Pin=R1_LED5-1
+Added Net: Name=NetLED_LED5_VDD
+Added Pin To Net: NetName=NetLED_LED6_VDD Pin=LED_LED6-VDD
+Added Pin To Net: NetName=NetLED_LED6_VDD Pin=R1_LED6-1
+Added Net: Name=NetLED_LED6_VDD
+Added Pin To Net: NetName=NetLED_LED7_VDD Pin=LED_LED7-VDD
+Added Pin To Net: NetName=NetLED_LED7_VDD Pin=R1_LED7-1
+Added Net: Name=NetLED_LED7_VDD
+Added Pin To Net: NetName=NetLED_LED8_VDD Pin=LED_LED8-VDD
+Added Pin To Net: NetName=NetLED_LED8_VDD Pin=R1_LED8-1
+Added Net: Name=NetLED_LED8_VDD
+Added Class: Name=LED1
+Added Class: Name=LED2
+Added Class: Name=LED3
+Added Class: Name=LED4
+Added Class: Name=LED5
+Added Class: Name=LED6
+Added Class: Name=LED7
+Added Class: Name=LED8
+Added Class: Name=LED

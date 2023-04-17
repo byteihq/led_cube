@@ -1,0 +1,3 @@
+Change Net Name : Old Net Name=GND New Net Name=Netconnector1_GND
+Change Net Name : Old Net Name=VDD New Net Name=Netconnector1_VDD
+Added Class: Name=BUS_Din[1..8]

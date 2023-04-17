@@ -1,0 +1,9 @@
+Added Class: Name=Din[1..8]
+Added Member To Class: ClassName=LINE1 Member=Component R1_LINE1 (R1) resistor 2.2K
+Added Member To Class: ClassName=LINE1 Member=Component R2_LINE1 (R2) resistor 2.2K
+Added Member To Class: ClassName=LINE1 Member=Component R3_LINE1 (R3) resistor 2.2K
+Added Member To Class: ClassName=LINE1 Member=Component R4_LINE1 (R4) resistor 2.2K
+Added Member To Class: ClassName=LINE1 Member=Component R5_LINE1 (R5) resistor 2.2K
+Added Member To Class: ClassName=LINE1 Member=Component R6_LINE1 (R6) resistor 2.2K
+Added Member To Class: ClassName=LINE1 Member=Component R7_LINE1 (R7) resistor 2.2K
+Added Member To Class: ClassName=LINE1 Member=Component R8_LINE1 (R8) resistor 2.2K

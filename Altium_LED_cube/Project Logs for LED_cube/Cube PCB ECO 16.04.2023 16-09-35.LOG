@@ -1,0 +1,37 @@
+Removed Pin From Net: NetName=NetLED_LED1_Dout Pin=LED_LED2-Dout
+Removed Pin From Net: NetName=NetLED_LED1_Dout Pin=LED_LED3-Dout
+Removed Pin From Net: NetName=NetLED_LED1_Dout Pin=LED_LED4-Dout
+Removed Pin From Net: NetName=NetLED_LED1_Dout Pin=LED_LED5-Dout
+Removed Pin From Net: NetName=NetLED_LED1_Dout Pin=LED_LED6-Dout
+Removed Pin From Net: NetName=NetLED_LED1_Dout Pin=LED_LED7-Dout
+Removed Pin From Net: NetName=NetLED_LED1_Dout Pin=LED_LED8-Dout
+Added Pin To Net: NetName=NetLED_LED1_Din Pin=LED_LED1-Din
+Added Net: Name=NetLED_LED1_Din
+Added Pin To Net: NetName=NetLED_LED2_Din Pin=LED_LED2-Din
+Added Net: Name=NetLED_LED2_Din
+Added Pin To Net: NetName=NetLED_LED2_Dout Pin=LED_LED2-Dout
+Added Net: Name=NetLED_LED2_Dout
+Added Pin To Net: NetName=NetLED_LED3_Din Pin=LED_LED3-Din
+Added Net: Name=NetLED_LED3_Din
+Added Pin To Net: NetName=NetLED_LED3_Dout Pin=LED_LED3-Dout
+Added Net: Name=NetLED_LED3_Dout
+Added Pin To Net: NetName=NetLED_LED4_Din Pin=LED_LED4-Din
+Added Net: Name=NetLED_LED4_Din
+Added Pin To Net: NetName=NetLED_LED4_Dout Pin=LED_LED4-Dout
+Added Net: Name=NetLED_LED4_Dout
+Added Pin To Net: NetName=NetLED_LED5_Din Pin=LED_LED5-Din
+Added Net: Name=NetLED_LED5_Din
+Added Pin To Net: NetName=NetLED_LED5_Dout Pin=LED_LED5-Dout
+Added Net: Name=NetLED_LED5_Dout
+Added Pin To Net: NetName=NetLED_LED6_Din Pin=LED_LED6-Din
+Added Net: Name=NetLED_LED6_Din
+Added Pin To Net: NetName=NetLED_LED6_Dout Pin=LED_LED6-Dout
+Added Net: Name=NetLED_LED6_Dout
+Added Pin To Net: NetName=NetLED_LED7_Din Pin=LED_LED7-Din
+Added Net: Name=NetLED_LED7_Din
+Added Pin To Net: NetName=NetLED_LED7_Dout Pin=LED_LED7-Dout
+Added Net: Name=NetLED_LED7_Dout
+Added Pin To Net: NetName=NetLED_LED8_Din Pin=LED_LED8-Din
+Added Net: Name=NetLED_LED8_Din
+Added Pin To Net: NetName=NetLED_LED8_Dout Pin=LED_LED8-Dout
+Added Net: Name=NetLED_LED8_Dout

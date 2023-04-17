@@ -1,0 +1,32 @@
+Change Component DesignItemId : Designator=LED4_LED1 Old DesignItemId=LED New DesignItemId=Line
+Change Component DesignItemId : Designator=LED4_LED2 Old DesignItemId=LED New DesignItemId=Line
+Change Component DesignItemId : Designator=LED4_LED3 Old DesignItemId=LED New DesignItemId=Line
+Change Component DesignItemId : Designator=LED4_LED4 Old DesignItemId=LED New DesignItemId=Line
+Change Component DesignItemId : Designator=LED4_LED5 Old DesignItemId=LED New DesignItemId=Line
+Change Component DesignItemId : Designator=LED4_LED6 Old DesignItemId=LED New DesignItemId=Line
+Change Component DesignItemId : Designator=LED4_LED7 Old DesignItemId=LED New DesignItemId=Line
+Change Component DesignItemId : Designator=LED4_LED8 Old DesignItemId=LED New DesignItemId=Line
+Change Component Footprint: Designator=LED4_LED1 Old Footprint=LED New Footprint=LINE
+Change Component Footprint: Designator=LED4_LED2 Old Footprint=LED New Footprint=LINE
+Change Component Footprint: Designator=LED4_LED3 Old Footprint=LED New Footprint=LINE
+Change Component Footprint: Designator=LED4_LED4 Old Footprint=LED New Footprint=LINE
+Change Component Footprint: Designator=LED4_LED5 Old Footprint=LED New Footprint=LINE
+Change Component Footprint: Designator=LED4_LED6 Old Footprint=LED New Footprint=LINE
+Change Component Footprint: Designator=LED4_LED7 Old Footprint=LED New Footprint=LINE
+Change Component Footprint: Designator=LED4_LED8 Old Footprint=LED New Footprint=LINE
+Change Component Comment : Designator=LED4_LED1 Old Comment=LED New Comment=Line
+Change Component Comment : Designator=LED4_LED2 Old Comment=LED New Comment=Line
+Change Component Comment : Designator=LED4_LED3 Old Comment=LED New Comment=Line
+Change Component Comment : Designator=LED4_LED4 Old Comment=LED New Comment=Line
+Change Component Comment : Designator=LED4_LED5 Old Comment=LED New Comment=Line
+Change Component Comment : Designator=LED4_LED6 Old Comment=LED New Comment=Line
+Change Component Comment : Designator=LED4_LED7 Old Comment=LED New Comment=Line
+Change Component Comment : Designator=LED4_LED8 Old Comment=LED New Comment=Line
+Change Component Description : Designator=LED4_LED1 Old Description=LED New Description=LINE
+Change Component Description : Designator=LED4_LED2 Old Description=LED New Description=LINE
+Change Component Description : Designator=LED4_LED3 Old Description=LED New Description=LINE
+Change Component Description : Designator=LED4_LED4 Old Description=LED New Description=LINE
+Change Component Description : Designator=LED4_LED5 Old Description=LED New Description=LINE
+Change Component Description : Designator=LED4_LED6 Old Description=LED New Description=LINE
+Change Component Description : Designator=LED4_LED7 Old Description=LED New Description=LINE
+Change Component Description : Designator=LED4_LED8 Old Description=LED New Description=LINE
