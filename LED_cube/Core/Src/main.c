@@ -31,7 +31,7 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-#define CUBE_SIZE 8
+
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -67,31 +67,200 @@ int main(void)
 {
   /* USER CODE BEGIN 1 */
   /* USER CODE END 1 */
+
   /* MCU Configuration--------------------------------------------------------*/
+
   /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
   HAL_Init();
+
   /* USER CODE BEGIN Init */
   /* USER CODE END Init */
+
   /* Configure the system clock */
   SystemClock_Config();
+
   /* USER CODE BEGIN SysInit */
   /* USER CODE END SysInit */
+
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_TIM1_Init();
   /* USER CODE BEGIN 2 */
   HAL_TIM_Base_Start(&htim1);
-  Cube cube;
-  cube_set_zero(&cube);
+  //Cube cube;
+  //cube_set_zero(&cube);
   stdin_set_params();
-
+  uint8_t mas[8*8*8*3];
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+  uint16_t j = 0;
+  	  uint8_t k = 0;
+  	  uint8_t m = 0;
   while (1) {
-	  get_cube(&cube);
-	  send_cube(&cube);
+	  	for (j = 0; j < CUBE_SIZE * CUBE_SIZE * CUBE_SIZE * 3; ++j) {
+	  	        mas[j] = 143;
+	  	}
+
+	  //get_cube(&cube);
+	  //send_cube(&cube);
+
+	  for (j = 0; j < CUBE_SIZE * CUBE_SIZE * CUBE_SIZE * 3; ++j) {
+		  if ((mas[j]) & (1 << 0)) {
+		  	  					HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3, GPIO_PIN_SET);
+		  	  					//GPIOx->BSRR = (GPIO_PIN_1+i);
+		  	  					TIM1->CNT= 0;
+		  	  					while(TIM1->CNT < 48){};
+		  	  					HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3, GPIO_PIN_RESET);
+		  	  					//GPIOx->BSRR = (uint32_t)(GPIO_PIN_1+i) << 16U;
+		  	  				TIM1->CNT= 0;
+		  	  				} else {
+		  	  					HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3, GPIO_PIN_SET);
+		  	  					TIM1->CNT= 0;
+		  	  					while(TIM1->CNT < 2) {};
+		  	  					HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3, GPIO_PIN_RESET);
+		  	  					TIM1->CNT= 0;
+		  	  					while(TIM1->CNT < 34) {};
+		  	  				}
+		  if ((mas[j]) & (1 << 1)) {
+		  		  	  					HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3, GPIO_PIN_SET);
+		  		  	  					//GPIOx->BSRR = (GPIO_PIN_1+i);
+		  		  	  					TIM1->CNT= 0;
+		  		  	  					while(TIM1->CNT < 48){};
+		  		  	  					HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3, GPIO_PIN_RESET);
+		  		  	  					//GPIOx->BSRR = (uint32_t)(GPIO_PIN_1+i) << 16U;
+		  		  	  				TIM1->CNT= 0;
+		  		  	  				} else {
+		  		  	  					HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3, GPIO_PIN_SET);
+		  		  	  					TIM1->CNT= 0;
+		  		  	  					while(TIM1->CNT < 2) {};
+		  		  	  					HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3, GPIO_PIN_RESET);
+		  		  	  					TIM1->CNT= 0;
+		  		  	  					while(TIM1->CNT < 34) {};
+		  		  	  				}
+		  		if ((mas[j]) & (1 << 2)) {
+		  				  	  					HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3, GPIO_PIN_SET);
+		  				  	  					//GPIOx->BSRR = (GPIO_PIN_1+i);
+		  				  	  					TIM1->CNT= 0;
+		  				  	  					while(TIM1->CNT < 48){};
+		  				  	  					HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3, GPIO_PIN_RESET);
+		  				  	  					//GPIOx->BSRR = (uint32_t)(GPIO_PIN_1+i) << 16U;
+		  				  	  				TIM1->CNT= 0;
+		  				  	  				} else {
+		  				  	  					HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3, GPIO_PIN_SET);
+		  				  	  					TIM1->CNT= 0;
+		  				  	  					while(TIM1->CNT < 2) {};
+		  				  	  					HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3, GPIO_PIN_RESET);
+		  				  	  					TIM1->CNT= 0;
+		  				  	  					while(TIM1->CNT < 34) {};
+		  				  	  				}
+		  				if ((mas[j]) & (1 << 3)) {
+		  						  	  					HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3, GPIO_PIN_SET);
+		  						  	  					//GPIOx->BSRR = (GPIO_PIN_1+i);
+		  						  	  					TIM1->CNT= 0;
+		  						  	  					while(TIM1->CNT < 48){};
+		  						  	  					HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3, GPIO_PIN_RESET);
+		  						  	  					//GPIOx->BSRR = (uint32_t)(GPIO_PIN_1+i) << 16U;
+		  						  	  				TIM1->CNT= 0;
+		  						  	  				} else {
+		  						  	  					HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3, GPIO_PIN_SET);
+		  						  	  					TIM1->CNT= 0;
+		  						  	  					while(TIM1->CNT < 2) {};
+		  						  	  					HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3, GPIO_PIN_RESET);
+		  						  	  					TIM1->CNT= 0;
+		  						  	  					while(TIM1->CNT < 34) {};
+		  						  	  				}
+		  						if ((mas[j]) & (1 << 4)) {
+		  								  	  					HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3, GPIO_PIN_SET);
+		  								  	  					//GPIOx->BSRR = (GPIO_PIN_1+i);
+		  								  	  					TIM1->CNT= 0;
+		  								  	  					while(TIM1->CNT < 48){};
+		  								  	  					HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3, GPIO_PIN_RESET);
+		  								  	  					//GPIOx->BSRR = (uint32_t)(GPIO_PIN_1+i) << 16U;
+		  								  	  				TIM1->CNT= 0;
+		  								  	  				} else {
+		  								  	  					HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3, GPIO_PIN_SET);
+		  								  	  					TIM1->CNT= 0;
+		  								  	  					while(TIM1->CNT < 2) {};
+		  								  	  					HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3, GPIO_PIN_RESET);
+		  								  	  					TIM1->CNT= 0;
+		  								  	  					while(TIM1->CNT < 34) {};
+		  								  	  				}
+		  								if ((mas[j]) & (1 << 5)) {
+		  										  	  					HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3, GPIO_PIN_SET);
+		  										  	  					//GPIOx->BSRR = (GPIO_PIN_1+i);
+		  										  	  					TIM1->CNT= 0;
+		  										  	  					while(TIM1->CNT < 48){};
+		  										  	  					HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3, GPIO_PIN_RESET);
+		  										  	  					//GPIOx->BSRR = (uint32_t)(GPIO_PIN_1+i) << 16U;
+		  										  	  				TIM1->CNT= 0;
+		  										  	  				} else {
+		  										  	  					HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3, GPIO_PIN_SET);
+		  										  	  					TIM1->CNT= 0;
+		  										  	  					while(TIM1->CNT < 2) {};
+		  										  	  					HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3, GPIO_PIN_RESET);
+		  										  	  					TIM1->CNT= 0;
+		  										  	  					while(TIM1->CNT < 34) {};
+		  										  	  				}
+		  										if ((mas[j]) & (1 << 6)) {
+		  												  	  					HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3, GPIO_PIN_SET);
+		  												  	  					//GPIOx->BSRR = (GPIO_PIN_1+i);
+		  												  	  					TIM1->CNT= 0;
+		  												  	  					while(TIM1->CNT < 48){};
+		  												  	  					HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3, GPIO_PIN_RESET);
+		  												  	  					//GPIOx->BSRR = (uint32_t)(GPIO_PIN_1+i) << 16U;
+		  												  	  					TIM1->CNT= 0;
+		  												  	  				} else {
+		  												  	  					HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3, GPIO_PIN_SET);
+		  												  	  					TIM1->CNT= 0;
+		  												  	  					while(TIM1->CNT < 2) {};
+		  												  	  					HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3, GPIO_PIN_RESET);
+		  												  	  					TIM1->CNT= 0;
+		  												  	  					while(TIM1->CNT < 34) {};
+		  												  	  				}
+		  												if ((mas[j]) & (1 << 7)) {
+		  														  	  					HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3, GPIO_PIN_SET);
+		  														  	  					//GPIOx->BSRR = (GPIO_PIN_1+i);
+		  														  	  					TIM1->CNT= 0;
+		  														  	  					while(TIM1->CNT < 48){};
+		  														  	  					HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3, GPIO_PIN_RESET);
+
+		  														  	  				} else {
+		  														  	  					HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3, GPIO_PIN_SET);
+		  														  	  					TIM1->CNT= 0;
+		  														  	  					while(TIM1->CNT < 2) {};
+		  														  	  					HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3, GPIO_PIN_RESET);
+		  														  	  					TIM1->CNT= 0;
+		  														  	  					while(TIM1->CNT < 34) {};
+		  														  	  				}
+	      }
+	      HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3, GPIO_PIN_RESET);
+	      TIM1->CNT= 0;
+	      while(TIM1->CNT < 0xff00) {};
+
+	  /* for (int i = 0; i < 24*4; ++i) {
+	  	  	  	  if (mas[i]) {
+	  	          	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3, GPIO_PIN_SET);
+	  	          	//GPIOx->BSRR = (GPIO_PIN_1+i);
+	  	          	TIM1->CNT= 0;
+	  	          	while(TIM1->CNT < 50){};
+	  	          	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3, GPIO_PIN_RESET);
+	  	          	//GPIOx->BSRR = (uint32_t)(GPIO_PIN_1+i) << 16U;
+	  	          	TIM1->CNT= 0;
+	  	          } else {
+	  	          	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3, GPIO_PIN_SET);
+	  	          	TIM1->CNT= 0;
+	  	          	while(TIM1->CNT < 2) {};
+	  	          	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3, GPIO_PIN_RESET);
+	  	          	TIM1->CNT= 0;
+	  	          	while(TIM1->CNT < 49) {};
+	  	          }
+	    }
+	    HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3, GPIO_PIN_RESET);
+	    TIM1->CNT= 0;
+	    while(TIM1->CNT < 0xff00) {};*/
+
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
@@ -221,7 +390,7 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Pin = GPIO_PIN_3;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_PULLDOWN;
-  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_VERY_HIGH;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
 /* USER CODE BEGIN MX_GPIO_Init_2 */

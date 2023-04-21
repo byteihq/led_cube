@@ -1,0 +1,3 @@
+LED_cube.c:4:6:cube_set_zero	2
+LED_cube.c:11:6:stdin_set_params	1
+LED_cube.c:15:6:get_cube	2
