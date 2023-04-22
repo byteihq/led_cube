@@ -1,8 +1,7 @@
 #include "LED_cube.h"
 
 void cube_set_zero(uint8_t *cube_colors) {
-  uint8_t *end = (uint8_t)cube + CUBE_MASSIVE_SIZE;
-  for (; cube_colors < end; ++cube_colors) {
+  for (uint8_t *end = (uint8_t)cube + CUBE_MASSIVE_SIZE; cube_colors < end; ++cube_colors) {
     *cube_colors = 0;
   }
   send_cube(cube_colors);
@@ -26,11 +25,7 @@ void get_cube(uint8_t *cube_colors) {
   }
 }
 void send_cube(uint8_t const *cube_colors) {
-  //функция должна иметь большую скорость для
-  //точности передачи бит -> нельзя разбивать
-  //на подфункции, максимально оптимизировать
-  uint16_t pin = GPIO_PIN_0;
-  for (pin = GPIO_PIN_0; pin < GPIO_PIN_7; pin *= 2) {
+  for (uint16_t pin = GPIO_PIN_0; pin < GPIO_PIN_7; pin *= 2) {
     send_flat(pin, cube_colors);
   }
   TIM1->CNT = 0;
