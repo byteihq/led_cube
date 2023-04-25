@@ -1,4 +1,4 @@
-LED_cube.c:32:6:cube_set_zero	1
-LED_cube.c:38:6:stdin_set_params	1
-LED_cube.c:42:6:get_cube	4
-LED_cube.c:57:6:send_cube	483
+LED_cube.c:3:6:cube_set_zero	1
+LED_cube.c:9:6:stdin_set_params	1
+LED_cube.c:13:6:get_cube	4
+LED_cube.c:28:6:send_cube	44

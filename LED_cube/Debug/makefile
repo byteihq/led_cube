@@ -60,8 +60,8 @@ all: main-build
 main-build: LED_cube.elf secondary-outputs
 
 # Tool invocations
-LED_cube.elf LED_cube.map: $(OBJS) $(USER_OBJS) C:\Users\User\Documents\STM32\ CubeIDE\led_cube\LED_cube\STM32F446ZETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "LED_cube.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\User\Documents\STM32 CubeIDE\led_cube\LED_cube\STM32F446ZETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LED_cube.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+LED_cube.elf LED_cube.map: $(OBJS) $(USER_OBJS) C:\Users\User\Desktop\LED_cube\led_cube\LED_cube\STM32F446ZETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "LED_cube.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\User\Desktop\LED_cube\led_cube\LED_cube\STM32F446ZETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LED_cube.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
