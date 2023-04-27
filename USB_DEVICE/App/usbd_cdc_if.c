@@ -23,7 +23,7 @@
 #include "usbd_cdc_if.h"
 
 /* USER CODE BEGIN INCLUDE */
-
+#include "LED_cube.h"
 /* USER CODE END INCLUDE */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -32,7 +32,8 @@
 
 /* USER CODE BEGIN PV */
 /* Private variables ---------------------------------------------------------*/
-
+extern uint8_t cube_colors[CUBE_MASSIVE_SIZE];
+extern uint32_t led_index;
 /* USER CODE END PV */
 
 /** @addtogroup STM32_USB_OTG_DEVICE_LIBRARY
@@ -75,7 +76,9 @@
   */
 
 /* USER CODE BEGIN PRIVATE_MACRO */
-
+#ifndef MIN
+#define MIN(X, Y) (((X) < (Y)) ? (X) : (Y))
+#endif
 /* USER CODE END PRIVATE_MACRO */
 
 /**
@@ -259,13 +262,17 @@ static int8_t CDC_Control_FS(uint8_t cmd, uint8_t* pbuf, uint16_t length)
   * @param  Len: Number of data received (in bytes)
   * @retval Result of the operation: USBD_OK if all operations are OK else USBD_FAIL
   */
-extern uint8_t buffer[512];
 static int8_t CDC_Receive_FS(uint8_t* Buf, uint32_t *Len)
 {
   /* USER CODE BEGIN 6 */
   USBD_CDC_SetRxBuffer(&hUsbDeviceFS, &Buf[0]);
   USBD_CDC_ReceivePacket(&hUsbDeviceFS);
-  memcpy(buffer, Buf, *Len);
+  const int _len = MIN(*Len, CUBE_MASSIVE_SIZE - led_index);
+  memcpy(cube_colors + led_index, Buf, _len);
+  led_index += _len;
+  if (led_index >= CUBE_MASSIVE_SIZE)
+	  led_index = 0;
+
   return (USBD_OK);
   /* USER CODE END 6 */
 }
